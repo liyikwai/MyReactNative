@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react'
 import { Button, StyleSheet, Text, View } from 'react-native';
 
@@ -21,7 +20,6 @@ export default class App extends Component {
       <View style={styles.container}>
         <View style={styles.redbox}>
         </View>
-        <StatusBar style="auto" />
         <Button
           onPress={this.onPress}
           color="red"
